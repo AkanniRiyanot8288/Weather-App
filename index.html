@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="weather-container">
+        <h2>Weather App</h2>
+        <select id="city">
+            <option value="Lagos">Lagos</option>
+            <option value="Ikeja">Ikeja</option>
+            <option value="Ikorodu">Ikorodu</option>
+            <option value="Epe">Epe</option>
+            <option value="Badagry">Badagry</option>
+            <option value="Lekki">Lekki</option>
+            <option value="Surulere">Surulere</option>
+            <option value="Yaba">Yaba</option>
+            <option value="Victoria Island">Victoria Island</option>
+            <option value="Agege">Agege</option>
+            <option value="Ikoyi">Ikoyi</option>
+            <!-- Add more cities as needed -->
+        </select>
+        <button onclick="getWeather()">Search</button>
+        <img id="weather-icon" src="" alt="Weather Icon">
+        <div id="temp-div"></div>
+        <div id="weather-info"></div>
+        <div id="hourly-forcast"></div>
+    </div>
+    <script src="Rit.js"></script>
+</body>
+</html>
